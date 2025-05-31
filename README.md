@@ -7,7 +7,7 @@ A simple Python command-line game where the user tries to guess a randomly gener
 Make sure you have Python installed. Then run the program using:
 
 ```bash
-python main.py
+python Game.py
 ```
 
 ## 🕹️ Gameplay
