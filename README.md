@@ -1,49 +1,52 @@
-# 🎮 Number Guessing Game
+# 🎯 Number Guessing Game
 
-A simple Python command-line game where the user tries to guess a randomly generated number. This version tracks your score and number of rounds played.
+This is a simple Python terminal-based number guessing game where the computer selects a random number between 1 and 100, and the player tries to guess it within a limited number of attempts. Difficulty levels adjust the number of chances given.
 
-## 🚀 How to Run
+🔗 **Project Idea Reference:** [Number Guessing Game — roadmap.sh](https://roadmap.sh/projects/number-guessing-game)
 
-Make sure you have Python installed. Then run the program using:
+## 🚀 Features
+
+- Random number generation between 1 and 100
+- Three difficulty levels:
+  - **Easy** – 10 guesses
+  - **Medium** – 5 guesses
+  - **Hard** – 3 guesses
+- Feedback after each guess: too high or too low
+- Option to replay the game after finishing
+
+## 🛠️ How to Run
+
+1. Make sure Python is installed (version 3.x recommended).
+2. Download the script or clone the repository.
+3. Run the game using the terminal:
 
 ```bash
-python Game.py
+python GameV2.0.py
 ```
 
-## 🕹️ Gameplay
+## 🧠 How to Play
 
-- You'll enter the maximum range for the random number.
-- The game generates a number between 1 and your selected range.
-- You try to guess it!
-- After each round, you can choose to continue or quit.
-- The game keeps track of your wins and total rounds played.
+1. Choose a difficulty level.
+2. Enter your guesses one by one.
+3. Try to guess the number before you run out of chances.
+4. Replay as many times as you'd like!
 
-## ✅ Example
+## 📂 File
+
+- `GameV2.0.py` – Main game file.
+
+## 📸 Preview
 
 ```
-WELCOME TO NUMBER GUESSING GAME
-Please enter the range for guess: 10
-Now enter your guess: 7
-sorry, tough luck
-wanna try again(y/n): y
-okay round 2
-Please enter the range for guess: 10
-Now enter your guess: 4
-congratulations, you're right, it is 4
-wanna try again(y/n): n
-Thanks for playing :)
-you played 2 times and won 1 times
+Welcome to the Number Guessing Game!
+I'm thinking of a number between 1 and 100.
+You have 5 chances to guess the correct number.
+Please select the difficulty level:
+1. Easy (10 chances)
+2. Medium (5 chances)
+3. Hard (3 chances)
 ```
 
-## 📊 Features
+---
 
-- Tracks number of rounds played
-- Shows how many rounds you won
-- Random number changes every round
-- Easy-to-understand and beginner-friendly
-
-## 👨‍💻 Author
-
-**Prakhar Srivastava**
-
-Created as a fun way to learn Python basics, conditionals, loops, and random number generation.
+Enjoy playing and feel free to modify the game to make it even more fun!
